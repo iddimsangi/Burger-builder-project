@@ -33,7 +33,7 @@ export class BurgerIngridients extends Component {
         ingridients = null;
         break;
     }
-    return <div>{ingridients}</div>;
+    return ingridients;
   }
 }
 

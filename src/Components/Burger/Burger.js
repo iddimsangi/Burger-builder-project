@@ -5,9 +5,7 @@ const Burger = () => {
   return (
     <div className={classes.Burger}>
       <BurgerIngridients type="bread-top" />
-      {/* <BurgerIngridients type="meat"/>
-    <BurgerIngridients type="cheese"/>
-    <BurgerIngridients type="bread-bottom"/> */}
+      <BurgerIngridients type="bread-bottom" />
     </div>
   );
 };
