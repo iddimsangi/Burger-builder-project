@@ -5,6 +5,9 @@ const Burger = () => {
   return (
     <div className={classes.Burger}>
       <BurgerIngridients type="bread-top" />
+      <BurgerIngridients type="cheese" />
+      <BurgerIngridients type="meat" />
+      <BurgerIngridients type="cheese" />
       <BurgerIngridients type="bread-bottom" />
     </div>
   );
