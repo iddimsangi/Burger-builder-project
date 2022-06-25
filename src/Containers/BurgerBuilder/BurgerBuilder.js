@@ -4,7 +4,7 @@ import Burger from "../../Components/Burger/Burger";
 export class BurgerBuilder extends Component {
   state = {
     ingridients: {
-      meat: 0,
+      meat: 2,
       salad: 0,
       cheese: 0,
       bacon: 0,
